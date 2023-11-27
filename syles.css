@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1000px;
+  height: 500px;
+  background-color: hotpink;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  background-color: mediumorchid;
+  box-sizing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cat {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 300px;
+}
